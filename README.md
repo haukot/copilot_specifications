@@ -64,20 +64,20 @@ Install IDEA and the Github Copilot plugin.
 
 Then, remove (or move) the bin folder from the plugin directory.
 
-```
+```bash
 rm ~/.local/share/JetBrains/IdeaIC2023.1/github-copilot-intellij/copilot-agent/bin
 ```
 
 After that run IDEA. It'll show error in the logs, but will not break anything. You can also use `COPILOT_AGENT_VERBOSE=true` to get more logs
 
-```
+```bash
 COPILOT_AGENT_VERBOSE=true ~/apps/idea-IC-231.9011.34/bin/idea.sh
 ```
 
 This will force copilot to use node process and agent.js directly.
 After that you can connect [debugger to node process](https://nodejs.org/en/docs/guides/debugging-getting-started), like
 
-```
+```bash
 $ ps ax | grep agent.js
 13837 pts/6    Sl+    0:02 .local/share/JetBrains/IdeaIC2023.1/github-copilot-intellij/copilot-agent/dist/agent.js
 
