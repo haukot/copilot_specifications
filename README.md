@@ -68,7 +68,7 @@ Then, remove (or move) the bin folder from the plugin directory.
 rm ~/.local/share/JetBrains/IdeaIC2023.1/github-copilot-intellij/copilot-agent/bin
 ```
 
-After that run IDEA. It'll show error in the logs, but will not break anything. You can also use `COPILOT_AGENT_VERBOSE=true` to get more logs
+After that run IDEA. It'll show error in the logs, but will not break anything. You can also use `COPILOT_AGENT_VERBOSE=true` to get more logs in the browser console
 
 ```bash
 COPILOT_AGENT_VERBOSE=true ~/apps/idea-IC-231.9011.34/bin/idea.sh
