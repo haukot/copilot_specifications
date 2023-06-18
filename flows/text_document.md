@@ -163,8 +163,8 @@ Example for delete selection:
 
 # File focused
 
-When a tab with file is changed. It affects which files will be included in the context, as only the last 20 are selected. And from these 20 - not all of their content will be included to the prompt(maybe it also takes access times into account?)
-Neighbor files are selected based on access times count, which is incremented when the file is focused.
+When a tab with file is changed. It affects which files will be included in the context, as only the last 20 are selected. And from these 20 - not all of their content will be included to the prompt(maybe it also takes last access time into account?)
+Neighbor files are sorted based on then last access time, which is set when files is focused.
 
 command = "textDocument/didFocus"
 
