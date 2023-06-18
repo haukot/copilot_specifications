@@ -1,3 +1,9 @@
+* [File opened](#file-opened)
+* [File closed](#file-closed)
+* [File changed](#file-changed)
+* [File focused](#file-focused)
+
+
 Events about files and their content.
 
 These commands don't have response as they are like notifications/events, they define context of completions requests. We don't wait for any response from them.

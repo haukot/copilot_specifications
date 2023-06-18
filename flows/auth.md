@@ -1,3 +1,8 @@
+* [Check auth status](#check-auth-status)
+* [Sign in initiate](#sign-in-initiate)
+* [Sign in confirm](#sign-in-confirm)
+* [Sign out](#sign-out)
+
 # Check auth status
 
 To check the current auth status. This runs first after the editor starts.

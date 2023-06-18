@@ -1,3 +1,8 @@
+* [Initialize](#initialize)
+* [Set editor info](#set-editor-info)
+* [Change settings](#change-settings)
+
+
 # Initialize
 
 First command after the editor starts

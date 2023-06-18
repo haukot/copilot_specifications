@@ -1,3 +1,10 @@
+* [Completions and cycling completions](#completions-and-cycling-completions)
+* [Panel completions](#panel-completions)
+* [Notification when completion is shown](#notification-when-completion-is-shown)
+* [Notification when completion is accepted](#notification-when-completion-is-accepted)
+* [Notification when completion is rejected](#notification-when-completion-is-rejected)
+
+
 # Completions and cycling completions
 
 ## Request
