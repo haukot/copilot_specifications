@@ -15,6 +15,9 @@ Inside specs you'll see two types of definitions - `uuid: Type.String()` and `"u
 The first one is from agent.js, this is exactly what agent.js can receive.
 The second one has been reverse-engineered from the JetBrains GitHub Copilot plugin, and it may not include some options that agent.js supports.
 
+**NOTE:** parts of the specs are seems the same with [lsp-server protocol](https://microsoft.github.io/language-server-protocol), e.g. `textDocument/didOpen`, capabilities and so on.
+Completions and notification, in other way, seems like a protocol extension.
+
 * [Dry start](flows/readme.md)
 * [Configurations](flows/configurations.md)
 * [Auth](flows/auth.md)
